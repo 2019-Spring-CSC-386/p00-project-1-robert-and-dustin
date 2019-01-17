@@ -28,7 +28,7 @@ List all of the known parts in the code you'll be creating.
 
 **Sample image**:
 
-![A sample image to show how to add one to a repo](images/example.png "A sample image. This is the text that appears.")
+![A sample image to show how to add one to a repo](images/v1.jpg "Very basic outline of what it would include")
 
 **NOTE**: Your initial design plan may not fully reflect your final product,
 as projects evolve over time.
