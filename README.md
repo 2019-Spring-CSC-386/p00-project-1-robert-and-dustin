@@ -26,7 +26,7 @@ List all of the known parts in the code you'll be creating.
 - tune- we will need to tell the speaker what kind of sound to make
 -other features may be added as we think of them
 
-**Sample image**:
+**Very early version 1**:
 
 ![A sample image to show how to add one to a repo](images/v1.jpg "Very basic outline of what it would include")
 
