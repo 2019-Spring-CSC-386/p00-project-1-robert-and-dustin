@@ -18,7 +18,7 @@ Outline the product you're creating:
 - Arduino UNO -this is what controlls everything
 - photoresistor- will detect light levels in the room to determine when to stop the alarm
 - speaker - this is what will make the alarm noise
-- List all of the known parts in the code you'll be creating.
+List all of the known parts in the code you'll be creating.
 - Clock- We will need a clock to both tell what time it is, but also to determine when to start sounding the alarm to wake up
 - light sensing- we will need to tell the alarm to stop sounding when the photoresistor detects a certain level of light, and we will have to take into consideration ambient light
 - tune- we will need to tell the speaker what kind of sound to make
