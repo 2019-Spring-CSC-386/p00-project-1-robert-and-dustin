@@ -15,15 +15,14 @@ Once common prblem with alarm clock is most people will simply hit the snooze bu
 *You'll complete this section as part of Milestone 1, and update regularly.*
 
 Outline the product you're creating:
-- List the hardware components you'll be using, and how they interact. 
-  This is an appropriate place for a diagram. An EXCELLENT resource 
-  for creating diagrams is the [Fritzing website](http://fritzing.org/home/ "Fritzing website")
+-Arduino UNO -this is what controlls everything
+-photoresistor- will detect light levels in the room to determine when to stop the alarm
+-speaker - this si what will make the alarm noise
 - List all of the known parts in the code you'll be creating.
-  - Your program must follow good coding standards. 
-  Primarily, I mean your code should include meaningful functions 
-  and appropriate variables, and be formatted and commented well. 
-  Sloppy code with no structure will be penalized 
-
+Clock- We will need a clock to both tell what time it is, but also to determine when to start sounding the alarm to wake up
+light sensing- we will need to tell the alarm to stop sounding when the photoresistor detects a certain level of light, and we will have to take into consideration ambient light
+tune- we will need to tell the speaker what kind of sound to make
+-other features may be added as we think of them
 
 **Sample image**:
 
