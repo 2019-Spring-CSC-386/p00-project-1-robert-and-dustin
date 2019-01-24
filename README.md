@@ -1,4 +1,14 @@
 # P00: Project 1
+```diff
+- Great idea. A little simple, so I expect perfection on the build and coding.
+- Remove all help text from this document, mostly in italics. It should ONLY be your writing!
+- NO REFERENCES?!!?
+- Files section is empty.
+- You're missing a very important component, the Real time clock (RTC). There's plenty in the lab.
+- "Other features as we think of them" is not good enough; think of them. Then, add them here. 
+- Your journals are barely readable, if at all. I could only read part of Dustin's; none of Robert's.
+- Great diagram! Keep updating it as you figure things out.
+```
 *Light Sensing alarm clock.*
 
 **Author(s)**: *Robert Hogsed, Dustin Young*
