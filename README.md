@@ -7,17 +7,18 @@
 
 ---
 ## Purpose
-*You'll complete this section as part of Milestone 1.*
 
-Once common prblem with alarm clock is most people will simply hit the snooze button and still not wake up. Our solution is to create an alarm clock that uses a light sensor to make sure that you've gotten out of bed and turned on your light before the alarm stops ringing. If you've already stood up, walked across your room, and turned on your light you are much less likely to fall back asleep.
+
+Once common problem with an alarm clock is that most people will simply hit the snooze button and still not wake up. Our solution is to create an alarm clock that uses a light sensor to make sure that you've gotten out of bed and turned on your light before the alarm stops ringing. If you've already stood up, walked across your room, and turned on your light you are much less likely to fall back asleep.
 
 ## Initial Design Plan
-*You'll complete this section as part of Milestone 1, and update regularly.*
+
 
 Outline the product you're creating:
 - Arduino UNO -this is what controlls everything
 - photoresistor- will detect light levels in the room to determine when to stop the alarm
 - speaker - this is what will make the alarm noise
+- Real Time Clock - This will be able to tell the time, which will control when the device begins sounding off. 
 
 List all of the known parts in the code you'll be creating.
   
