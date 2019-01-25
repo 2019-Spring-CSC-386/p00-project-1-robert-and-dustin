@@ -16,7 +16,7 @@ Once common problem with an alarm clock is that most people will simply hit the 
 The following components will be used in our design. 
 
 
-- Arduino UNO -this is what controlls everything
+- Arduino Metro -this is what controlls everything
 - photoresistor- will detect light levels in the room to determine when to stop the alarm
 - speaker - this is what will make the alarm noise
 - Real Time Clock - This will be able to tell the time, which will control when the device begins sounding off.
@@ -35,13 +35,12 @@ The following parts will need to be coded.
 ![](images/v2.jpg "our project 1/24/19")
 Where we are at as of 1/24/19. There is a led that will stay lit when the light level is above the alarm shutoff point. The buzzer is used to make the alarm sound, but we would like to switch this to a larger speaker for a bit more volume. Then we have the light sensor. We have tested it a alot and right now we have it to where the alarm will not sound as long as the light in the room is bright enough. When we cover the sensor to reduce the light level the alarm begins to sound and the LED shuts off. Next we will work on getting the real time clock up and running and have our code only run between a set time (whenever you want to set your alarm for)
 
-**NOTE**: Your initial design plan may not fully reflect your final product,
-as projects evolve over time.
+
 
 ## Files
-*You'll complete this section as part of Milestone 1.*
-
-List every file in your repository, and briefly summarize each file's purpose in a sentence.
+- alarmclock - this is our code for the actual project. We are happy with the project so far
+- v1 - this was a basic mockup drawing made in Fritzing.
+- v2 - this is a picture of what we have so far. We still need to add the real world clock which we are figuring out how to use.
 
 ## Summary
 *You'll complete this part at the end of the project.*
@@ -54,16 +53,12 @@ innovations that were not specifically required by the assignment.
 This section should be no more than three paragraphs.
 
 ## Instructions
-Explain how to use your product. 
-This section should THOROUGHLY describe its usage (i.e., more than just "Push start").
+1. Set the time which you want the alarm to go off
+2. When the alarm starts to ring the only way to silence it is to turn on your lights.
 
 ## Errors and Constraints
-*You'll complete this part at the end of the project.*
+- one constarint we forsee is not knowing the exact ambient light level of every room. All our testing so far has been set up in the classroom. we will conduct future tests in various lighting to help aleviate this issue.
 
-Every program has bugs. Use this section to create a bullet list of
-all known errors and deficiencies that remain in your product. 
-Also, list any constraints that must exist for your product to work 
-(e.g., Only works in low light situations).
 
 ## Reflection
 *You'll complete this part at the end of the project.*
@@ -76,14 +71,10 @@ It should be critical of shortcomings (yours, as well as the instructors/assignm
 as well as celebratory of what was achieved.
 
 ## References
-*Start this section at the beginning of the project, and update it throughout.*
-
-Throughout this project, you'll be used outside resources.
-Reference ALL ideas or code which are not your own, and describe and
-how you integrated the ideas or code into your program. This includes
-online sources, people who have helped you, and any other resources that
-are not solely your own contribution. Lastly, include ALL resources you
-looked at, not just the ones you ended up using directly.
+- v1 picture made in fritzing app http://fritzing.org/home/
+-photo resistor help https://learn.adafruit.com/photocells/arduino-code
+- buzzer help was found in the arduion ide examples library
+- led light help https://www.arduino.cc/en/tutorial/blink
 
 ## Final Self-Evaluations
 *You'll complete this part at the end of the project. 
