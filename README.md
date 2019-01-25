@@ -41,6 +41,8 @@ Where we are at as of 1/24/19. There is a led that will stay lit when the light 
 - alarmclock - this is our code for the actual project. We are happy with the project so far
 - v1 - this was a basic mockup drawing made in Fritzing.
 - v2 - this is a picture of what we have so far. We still need to add the real world clock which we are figuring out how to use.
+- README.md - keeps track of our project, and lays out out plans and ideas
+- designdoc.docx - a google doc that explains our project the pieces to it and how it works
 
 ## Summary
 *You'll complete this part at the end of the project.*
