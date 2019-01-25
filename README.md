@@ -72,7 +72,7 @@ as well as celebratory of what was achieved.
 
 ## References
 - v1 picture made in fritzing app http://fritzing.org/home/
--photo resistor help https://learn.adafruit.com/photocells/arduino-code
+- photo resistor help https://learn.adafruit.com/photocells/arduino-code
 - buzzer help was found in the arduion ide examples library
 - led light help https://www.arduino.cc/en/tutorial/blink
 
