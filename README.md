@@ -19,14 +19,15 @@ The following components will be used in our design.
 - Arduino UNO -this is what controlls everything
 - photoresistor- will detect light levels in the room to determine when to stop the alarm
 - speaker - this is what will make the alarm noise
-- Real Time Clock - This will be able to tell the time, which will control when the device begins sounding off. 
+- Real Time Clock - This will be able to tell the time, which will control when the device begins sounding off.
+- led light - this will work as just a second indicator of when the alarm is sounding and will shut off when enough light is detected.
 
 The following parts will need to be coded.
   
 - Clock- We will need a clock to both tell what time it is, but also to determine when to start sounding the alarm to wake up
 - light sensing- we will need to tell the alarm to stop sounding when the photoresistor detects a certain level of light, and we will have to take into consideration ambient light
 - tune- we will need to tell the speaker what kind of sound to make
--other features may be added as we think of them
+- We are considering adding a temperautre sensor as well as a few more colored leds. Different colored leds will light up to indicate roughly what the temerature is.
 
 **Very early version 1**:
 
