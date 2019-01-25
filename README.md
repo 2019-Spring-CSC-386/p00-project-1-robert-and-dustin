@@ -32,6 +32,7 @@ The following parts will need to be coded.
 **Very early version 1**:
 
 ![A sample image to show how to add one to a repo](images/v1.jpg "Very basic outline of what it would include")
+** Our actual work so far**:
 ![](images/v2.jpg "our project 1/24/19")
 Where we are at as of 1/24/19. There is a led that will stay lit when the light level is above the alarm shutoff point. The buzzer is used to make the alarm sound, but we would like to switch this to a larger speaker for a bit more volume. Then we have the light sensor. We have tested it a alot and right now we have it to where the alarm will not sound as long as the light in the room is bright enough. When we cover the sensor to reduce the light level the alarm begins to sound and the LED shuts off. Next we will work on getting the real time clock up and running and have our code only run between a set time (whenever you want to set your alarm for)
 
@@ -77,6 +78,7 @@ as well as celebratory of what was achieved.
 - photo resistor help https://learn.adafruit.com/photocells/arduino-code
 - buzzer help was found in the arduion ide examples library
 - led light help https://www.arduino.cc/en/tutorial/blink
+- markdown help for readme https://www.markdownguide.org/cheat-sheet/
 
 ## Final Self-Evaluations
 *You'll complete this part at the end of the project. 
