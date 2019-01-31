@@ -79,6 +79,7 @@ as well as celebratory of what was achieved.
 - buzzer help was found in the arduion ide examples library
 - led light help https://www.arduino.cc/en/tutorial/blink
 - markdown help for readme https://www.markdownguide.org/cheat-sheet/
+- Chronodot setup https://github.com/adafruit/RTClib
 
 ## Final Self-Evaluations
 *You'll complete this part at the end of the project. 
