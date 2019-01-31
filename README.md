@@ -62,6 +62,7 @@ This section should be no more than three paragraphs.
 
 ## Errors and Constraints
 - one constarint we forsee is not knowing the exact ambient light level of every room. All our testing so far has been set up in the classroom. we will conduct future tests in various lighting to help aleviate this issue.
+- I have noticed that the RTC has lost time before. Somtimes its just a few second sometimes its a few minutes and I am not sure why.
 
 
 ## Reflection
