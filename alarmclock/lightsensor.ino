@@ -1,11 +1,16 @@
 int lightPin = 0;  //define a pin for Photo resistor
 int ledPin=11;     //define a pin for LED
 
+#include <Wire.h>
+#include "RTClib.h"
+RTC_DS1307 RTC;
 void setup()
 {
     Serial.begin(9600);  //Begin serial communcation
     pinMode( ledPin, OUTPUT );
     pinMode(LED_BUILTIN, OUTPUT);
+      Wire.begin();
+  RTC.begin();
 }
 
 void loop()
@@ -15,8 +20,23 @@ void loop()
                                                 //you have  to divide the value. for example, 
                                                 //with a 10k resistor divide the value by 2, for 100k resistor divide by 4.
    delay(100); //short delay for faster response to light.
-   //tone(8, 31);
+
    digitalWrite(LED_BUILTIN, HIGH);
+     // Get the current time
+  DateTime now = RTC.now();   
+
+
+  Serial.print(now.hour(), DEC);
+  Serial.print(':');
+  Serial.print(now.minute(), DEC);
+  Serial.print(':');
+  Serial.print(now.second(), DEC);
+  Serial.println();
+  delay(1000);
+  // set alarm time here
+ if(now.hour() == 17 && now.minute() == 28){
+  
+  
    if (analogRead(lightPin) > 201){
       noTone(8);
 
@@ -28,5 +48,5 @@ void loop()
       tone(8, 31);
 
    }
-
+}
 }
