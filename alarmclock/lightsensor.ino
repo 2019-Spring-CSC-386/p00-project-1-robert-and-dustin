@@ -34,7 +34,7 @@ void loop()
   Serial.println();
   delay(1000);
   // set alarm time here
- if(now.hour() == 17 && now.minute() == 28){
+ if(now.hour() == 7 && now.minute() > 29) && now.minutes() < 31){
   
   
    if (analogRead(lightPin) > 201){
