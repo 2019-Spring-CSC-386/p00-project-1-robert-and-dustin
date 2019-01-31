@@ -16,9 +16,7 @@ void setup()
 void loop()
 {
     Serial.println(analogRead(lightPin)); //Write the value of the photoresistor to the serial monitor.
-    analogWrite(ledPin, analogRead(lightPin)/4);  //send the value to the ledPin. Depending on value of resistor 
-                                                //you have  to divide the value. for example, 
-                                                //with a 10k resistor divide the value by 2, for 100k resistor divide by 4.
+
    delay(100); //short delay for faster response to light.
 
    digitalWrite(LED_BUILTIN, HIGH);
@@ -34,13 +32,14 @@ void loop()
   Serial.println();
   delay(1000);
   // set alarm time here
- if(now.hour() == 7 && now.minute() > 29) && now.minutes() < 31){
+ if(now.hour() == 7 && now.minute() > 29 && now.minute() < 40){
   
-  
+  //if light level is high enough no alarm will sound
    if (analogRead(lightPin) > 201){
       noTone(8);
 
    }
+   // if the light level is too low then the alarm will continue to sound
    if (analogRead(lightPin) < 200){
      //Serial.print("test");
      digitalWrite(LED_BUILTIN, LOW);
