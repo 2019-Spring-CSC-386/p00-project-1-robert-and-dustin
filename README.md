@@ -40,6 +40,10 @@ Where we are at as of 1/24/19. There is a led that will stay lit when the light 
 ![](images/rtc.jpg "setting up the rtc")
 The RTC is now set up and ticking. The alarm part of the code is now up and working and our alarm will sound when the clock reaches whaterever time you have it set for, currently it is set for 7:30 and will ring until it shuts off either by you turning on the lights or when it eventually gives up at 7:40.
 
+**full alarm system is up**
+![](images/v3.jpg "full alarm is up")
+The full alarm is up and working, I am also including a link ot a youtube video I made showing it works properly. https://www.youtube.com/watch?v=IZ8XEPMw9Ls
+
 
 
 ## Files
@@ -67,6 +71,8 @@ This section should be no more than three paragraphs.
 ## Errors and Constraints
 - one constarint we forsee is not knowing the exact ambient light level of every room. All our testing so far has been set up in the classroom. we will conduct future tests in various lighting to help aleviate this issue.
 - I have noticed that the RTC has lost time before. Somtimes its just a few second sometimes its a few minutes and I am not sure why.
+- wires sometimes come a little loose or slip out, theres so many some fit more snug than others it is mostly just a hardware issue.
+- because of the way the code is set up you cannot have your alarm set for a perfect hour time like 8am, the alarm will go off at 8:01 as the alarm range must be between two seperate minute values. So if you set the minute values between 0 and 10, it will start at the 01 minute and end at the 11 minute of the hour.
 
 
 ## Reflection
