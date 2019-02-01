@@ -50,6 +50,8 @@ The full alarm is up and working, I am also including a link ot a youtube video 
 - alarmclock - this is our code for the actual project. We are happy with the project so far
 - v1 - this was a basic mockup drawing made in Fritzing.
 - v2 - this is a picture of what we have so far. We still need to add the real world clock which we are figuring out how to use.
+- rtc.jpg picture of clock after getting it set up
+- v3 build of the alarm clock as of 1/31/19
 - README.md - keeps track of our project, and lays out out plans and ideas
 - designdoc.docx - a google doc that explains our project the pieces to it and how it works
 - TRClib.zip library to set up the RTC    -https://github.com/adafruit/RTClib
