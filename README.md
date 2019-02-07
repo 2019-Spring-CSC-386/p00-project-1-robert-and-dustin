@@ -96,7 +96,7 @@ as well as celebratory of what was achieved.
 - led light help
   - https://www.arduino.cc/en/tutorial/blink
 - markdown help for readme 
-  -https://www.markdownguide.org/cheat-sheet/
+  - https://www.markdownguide.org/cheat-sheet/
 - Chronodot setup 
   - https://github.com/adafruit/RTClib
 - Details on the Real Time Clock used for our project.
