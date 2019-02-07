@@ -17,7 +17,7 @@ The following components will be used in our design.
 
 
 - Arduino Metro - This is what controls everything.
-- Photoresistor - Will detect light levels in the room to determine when to stop the alarm.
+- Photo-resistor - Will detect light levels in the room to determine when to stop the alarm.
 - Speaker - This will make an incredibly irritating noise until the light sensor is tripped and the alarm shuts off.
 - Real Time Clock - This will be able to tell the time, which will control when the device begins sounding off.
 - Led light - This will work as just a second indicator of when the alarm is sounding and will shut off when enough light is detected.
@@ -25,7 +25,7 @@ The following components will be used in our design.
 The following parts will need to be coded.
 
 - Clock - We will need a clock to both tell what time it is, but also to determine when to start sounding the alarm to wake up
-- Light sensing - we will need to tell the alarm to stop sounding when the photoresistor detects a certain level of light, and we will have to take into consideration ambient light
+- Light sensing - we will need to tell the alarm to stop sounding when the photo-resistor detects a certain level of light, and we will have to take into consideration ambient light
 - tune - we will need to tell the speaker what kind of sound to make
 - We are considering adding a temperature sensor as well as a few more colored leds. Different colored leds will light up to indicate roughly what the temperature is.
 
@@ -33,27 +33,27 @@ The following parts will need to be coded.
 
 ![A sample image to show how to add one to a repo](images/v1.jpg "Very basic outline of what it would include")
 **Our actual work so far**:
-![](images/v2.jpg "our project 1/24/19")
+![](images/v2.jpg "Our project 1/24/19")
 Where we are at as of 1/24/19. There is a led that will stay lit when the light level is above the alarm shutoff point. The buzzer is used to make the alarm sound, but we would like to switch this to a larger speaker for a bit more volume. Then we have the light sensor. We have tested it a lot and right now we have it to where the alarm will not sound as long as the light in the room is bright enough. When we cover the sensor to reduce the light level the alarm begins to sound and the LED shuts off. Next we will work on getting the real time clock up and running and have our code only run between a set time (whenever you want to set your alarm for)
 
 **clock is up and running**
-![](images/rtc.jpg "setting up the rtc")
+![](images/rtc.jpg "Setting up the rtc")
 The RTC is now set up and ticking. The alarm part of the code is now up and working and our alarm will sound when the clock reaches whatever time you have it set for, currently it is set for 7:30 and will ring until it shuts off either by you turning on the lights or when it eventually gives up at 7:40.
 
 **full alarm system is up**
-![](images/v3.jpg "full alarm is up")
+![](images/v3.jpg "Full alarm is up")
 The full alarm is up and working, I am also including a link to a Youtube video I made showing it works properly. https://www.youtube.com/watch?v=IZ8XEPMw9Ls
 
 
 
 ## Files
 - alarmclock - this is our code for the actual project. We are happy with the project so far
-- v1 - this was a basic mockup drawing made in Fritzing.
-- v2 - this is a picture of what we have so far. We still need to add the real world clock which we are figuring out how to use.
-- rtc.jpg picture of clock after getting it set up
-- v3 build of the alarm clock as of 1/31/19
-- README.md - keeps track of our project, and lays out out plans and ideas
-- designdoc.docx - a google doc that explains our project the pieces to it and how it works
+- v1 - This was a basic mockup drawing made in Fritzing.
+- v2 - This is a picture of what we have so far. We still need to add the real world clock which we are figuring out how to use.
+- rtc.jpg - picture of clock after getting it set up
+- v3 - Build of the alarm clock as of 1/31/19
+- README.md - This file keeps track of our project, and lays out out plans and ideas
+- designdoc.docx - A Google doc that explains our project the pieces to it and how it works
 - TRClib.zip library to set up the RTC    -https://github.com/adafruit/RTClib
 
 ## Summary
@@ -67,7 +67,9 @@ In conclusion, the project was a great way to be introduced to the Arduino IDE. 
 
 ## Instructions
 1. Set the time which you want the alarm to go off
-2. When the alarm starts to ring the only way to silence it is to turn on your lights.
+2. At that time, the alarm will begin ringing in an incredibly irritating fashion.
+3. The only way to shut off the alarm is to get out of bed, and turn on the lights.
+4. This should trigger the photo-resistor, shutting off the alarm.
 
 ## Errors and Constraints
 - One constraint we foresee is not knowing the exact ambient light level of every room. All our testing so far has been set up in the classroom. Additional testing in various lighting levels should help us alleviate this issue.
@@ -89,12 +91,12 @@ as well as celebratory of what was achieved.
 ## References
 - v1 picture made in fritzing app
   - http://fritzing.org/home/
-- photo resistor help
+- Photo-resistor help
   - https://learn.adafruit.com/photocells/arduino-code
-- buzzer help was found in the arduion ide examples library
-- led light help
+- buzzer help was found in the Arduino IDE examples library
+- Led light help
   - https://www.arduino.cc/en/tutorial/blink
-- markdown help for readme
+- Markdown help for readme
   - https://www.markdownguide.org/cheat-sheet/
 - Chronodot setup
   - https://github.com/adafruit/RTClib
