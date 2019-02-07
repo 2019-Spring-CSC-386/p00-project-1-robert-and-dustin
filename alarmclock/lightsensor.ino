@@ -1,6 +1,7 @@
 int lightPin = 0;  //define a pin for Photo resistor
 int ledPin=11;     //define a pin for LED
 
+//Imports code for the Real time clock
 #include <Wire.h>
 #include "RTClib.h"
 RTC_DS1307 RTC;
@@ -21,7 +22,7 @@ void loop()
 
    digitalWrite(LED_BUILTIN, HIGH);
      // Get the current time
-  DateTime now = RTC.now();   
+  DateTime now = RTC.now();
 
 
   Serial.print(now.hour(), DEC);
@@ -33,7 +34,7 @@ void loop()
   delay(1000);
   // set alarm time here
  if(now.hour() == 7 && now.minute() > 29 && now.minute() < 40){
-  
+
   //if light level is high enough no alarm will sound
    if (analogRead(lightPin) > 201){
       noTone(8);
