@@ -71,10 +71,10 @@ This section should be no more than three paragraphs.
 2. When the alarm starts to ring the only way to silence it is to turn on your lights.
 
 ## Errors and Constraints
-- one constarint we forsee is not knowing the exact ambient light level of every room. All our testing so far has been set up in the classroom. we will conduct future tests in various lighting to help aleviate this issue.
-- I have noticed that the RTC has lost time before. Somtimes its just a few second sometimes its a few minutes and I am not sure why.
-- wires sometimes come a little loose or slip out, theres so many some fit more snug than others it is mostly just a hardware issue.
-- because of the way the code is set up you cannot have your alarm set for a perfect hour time like 8am, the alarm will go off at 8:01 as the alarm range must be between two seperate minute values. So if you set the minute values between 0 and 10, it will start at the 01 minute and end at the 11 minute of the hour.
+- One constarint we forsee is not knowing the exact ambient light level of every room. All our testing so far has been set up in the classroom. Additional testing in various lighting levels should help us alleviate this issue. 
+- I have noticed that the RTC has lost time before. Sometimes it's just a few seconds, but sometimes it's a few minutes and I am not sure why.
+- Wires sometimes come a little loose or slip out, there are so many that some fit more snug than others. This is mainly a hardware issue. 
+- Because of the way the code is set up you cannot have your alarm set for a perfect hour time like 8am, the alarm will go off at 8:01 as the alarm range must be between two seperate minute values. So if you set the minute values between 0 and 10, it will start at the 01 minute and end at the 11 minute of the hour.
 
 
 ## Reflection
