@@ -9,7 +9,7 @@
 ## Purpose
 
 
-Once common problem with an alarm clock is that most people will simply hit the snooze button and still not wake up. Our solution is to create an alarm clock that uses a light sensor to make sure that you've gotten out of bed and turned on your light before the alarm stops ringing. Additionally, the device should be able to detect the light level and only turn off at a certain threshold. For example, if the user wakes up and simply tries to shine a light from their phone on the device, it should preferably not turn off. If you've already stood up, walked across your room, and turned on your light you are much less likely to fall back asleep. 
+Once common problem with an alarm clock is that most people will simply hit the snooze button and still not wake up. Our solution is to create an alarm clock that uses a light sensor to make sure that you've gotten out of bed and turned on your light before the alarm stops ringing. Additionally, the device should be able to detect the light level and only turn off at a certain threshold. For example, if the user wakes up and simply tries to shine a light from their phone on the device, it should preferably not turn off. If you've already stood up, walked across your room, and turned on your light you are much less likely to fall back asleep.
 
 ## Initial Design Plan
 
@@ -57,7 +57,12 @@ The full alarm is up and working, I am also including a link ot a youtube video 
 - TRClib.zip library to set up the RTC    -https://github.com/adafruit/RTClib
 
 ## Summary
-*You'll complete this part at the end of the project.*
+
+Now that our project is nearing completion, it is safe to say that our initial design plan didn't end up changing a great deal. If time permits, there are a few additions that we could consider adding to the final project. As of now however, the alarm achieves everything we set out to do. After a time is set by the user, the alarm will begin ringing at that time. The only way to turn the alarm off is to get up and turn on the lights, or break the device. This should help to prevent users from falling back asleep after they wake up. If you already had to get up and walk to the light, then you're much less likely to go back to sleep.
+
+Overall, the final product didn't require an enormous amount of coding. All of the parts that we used had excellent documentation on the Arduino website, which helped us whenever we had questions about a part or a section of code. Since the project was relatively straightforward, we had the idea to add some additional functionalities to it, such as a temperature sensor or a text-to-speech module. The temperature module would have read the ambient temperature and told the user if a jacket was necessary, while the text-to-speech module would have been a customizable addition that would further motivate the user to wake up.
+
+In conclusion, the project was a great way to be introduced to the Arduino IDE. It allowed us to create a device that would be legitimately useful to us, and allowed us to explore the code that we would be using for the rest of the class. We both enjoyed working on the project and the experience gained will certainly be useful for future assignments and projects. 
 
 Provide a brief summary description of the design and implementation,
 including how much your initial design plan evolved, the final result
