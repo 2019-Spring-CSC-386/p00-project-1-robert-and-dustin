@@ -16,33 +16,33 @@ Once common problem with an alarm clock is that most people will simply hit the 
 The following components will be used in our design.
 
 
-- Arduino Metro -this is what controlls everything
-- photoresistor- will detect light levels in the room to determine when to stop the alarm
-- speaker - this is what will make the alarm noise
+- Arduino Metro - This is what controls everything.
+- Photoresistor - Will detect light levels in the room to determine when to stop the alarm.
+- Speaker - This will make an incredibly irritating noise until the light sensor is tripped and the alarm shuts off.
 - Real Time Clock - This will be able to tell the time, which will control when the device begins sounding off.
-- led light - this will work as just a second indicator of when the alarm is sounding and will shut off when enough light is detected.
+- Led light - This will work as just a second indicator of when the alarm is sounding and will shut off when enough light is detected.
 
 The following parts will need to be coded.
 
-- Clock- We will need a clock to both tell what time it is, but also to determine when to start sounding the alarm to wake up
-- light sensing- we will need to tell the alarm to stop sounding when the photoresistor detects a certain level of light, and we will have to take into consideration ambient light
-- tune- we will need to tell the speaker what kind of sound to make
-- We are considering adding a temperautre sensor as well as a few more colored leds. Different colored leds will light up to indicate roughly what the temerature is.
+- Clock - We will need a clock to both tell what time it is, but also to determine when to start sounding the alarm to wake up
+- Light sensing - we will need to tell the alarm to stop sounding when the photoresistor detects a certain level of light, and we will have to take into consideration ambient light
+- tune - we will need to tell the speaker what kind of sound to make
+- We are considering adding a temperature sensor as well as a few more colored leds. Different colored leds will light up to indicate roughly what the temperature is.
 
 **Very early version 1**:
 
 ![A sample image to show how to add one to a repo](images/v1.jpg "Very basic outline of what it would include")
 **Our actual work so far**:
 ![](images/v2.jpg "our project 1/24/19")
-Where we are at as of 1/24/19. There is a led that will stay lit when the light level is above the alarm shutoff point. The buzzer is used to make the alarm sound, but we would like to switch this to a larger speaker for a bit more volume. Then we have the light sensor. We have tested it a alot and right now we have it to where the alarm will not sound as long as the light in the room is bright enough. When we cover the sensor to reduce the light level the alarm begins to sound and the LED shuts off. Next we will work on getting the real time clock up and running and have our code only run between a set time (whenever you want to set your alarm for)
+Where we are at as of 1/24/19. There is a led that will stay lit when the light level is above the alarm shutoff point. The buzzer is used to make the alarm sound, but we would like to switch this to a larger speaker for a bit more volume. Then we have the light sensor. We have tested it a lot and right now we have it to where the alarm will not sound as long as the light in the room is bright enough. When we cover the sensor to reduce the light level the alarm begins to sound and the LED shuts off. Next we will work on getting the real time clock up and running and have our code only run between a set time (whenever you want to set your alarm for)
 
 **clock is up and running**
 ![](images/rtc.jpg "setting up the rtc")
-The RTC is now set up and ticking. The alarm part of the code is now up and working and our alarm will sound when the clock reaches whaterever time you have it set for, currently it is set for 7:30 and will ring until it shuts off either by you turning on the lights or when it eventually gives up at 7:40.
+The RTC is now set up and ticking. The alarm part of the code is now up and working and our alarm will sound when the clock reaches whatever time you have it set for, currently it is set for 7:30 and will ring until it shuts off either by you turning on the lights or when it eventually gives up at 7:40.
 
 **full alarm system is up**
 ![](images/v3.jpg "full alarm is up")
-The full alarm is up and working, I am also including a link ot a youtube video I made showing it works properly. https://www.youtube.com/watch?v=IZ8XEPMw9Ls
+The full alarm is up and working, I am also including a link to a Youtube video I made showing it works properly. https://www.youtube.com/watch?v=IZ8XEPMw9Ls
 
 
 
