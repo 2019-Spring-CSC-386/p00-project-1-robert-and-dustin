@@ -9,11 +9,11 @@
 ## Purpose
 
 
-Once common problem with an alarm clock is that most people will simply hit the snooze button and still not wake up. Our solution is to create an alarm clock that uses a light sensor to make sure that you've gotten out of bed and turned on your light before the alarm stops ringing. If you've already stood up, walked across your room, and turned on your light you are much less likely to fall back asleep.
+Once common problem with an alarm clock is that most people will simply hit the snooze button and still not wake up. Our solution is to create an alarm clock that uses a light sensor to make sure that you've gotten out of bed and turned on your light before the alarm stops ringing. Additionally, the device should be able to detect the light level and only turn off at a certain threshold. For example, if the user wakes up and simply tries to shine a light from their phone on the device, it should preferably not turn off. If you've already stood up, walked across your room, and turned on your light you are much less likely to fall back asleep. 
 
 ## Initial Design Plan
 
-The following components will be used in our design. 
+The following components will be used in our design.
 
 
 - Arduino Metro -this is what controlls everything
@@ -23,7 +23,7 @@ The following components will be used in our design.
 - led light - this will work as just a second indicator of when the alarm is sounding and will shut off when enough light is detected.
 
 The following parts will need to be coded.
-  
+
 - Clock- We will need a clock to both tell what time it is, but also to determine when to start sounding the alarm to wake up
 - light sensing- we will need to tell the alarm to stop sounding when the photoresistor detects a certain level of light, and we will have to take into consideration ambient light
 - tune- we will need to tell the speaker what kind of sound to make
@@ -71,33 +71,33 @@ This section should be no more than three paragraphs.
 2. When the alarm starts to ring the only way to silence it is to turn on your lights.
 
 ## Errors and Constraints
-- One constarint we forsee is not knowing the exact ambient light level of every room. All our testing so far has been set up in the classroom. Additional testing in various lighting levels should help us alleviate this issue. 
+- One constarint we forsee is not knowing the exact ambient light level of every room. All our testing so far has been set up in the classroom. Additional testing in various lighting levels should help us alleviate this issue.
 - I have noticed that the RTC has lost time before. Sometimes it's just a few seconds, but sometimes it's a few minutes and I am not sure why.
-- Wires sometimes come a little loose or slip out, there are so many that some fit more snug than others. This is mainly a hardware issue. 
+- Wires sometimes come a little loose or slip out, there are so many that some fit more snug than others. This is mainly a hardware issue.
 - Because of the way the code is set up you cannot have your alarm set for a perfect hour time like 8am, the alarm will go off at 8:01 as the alarm range must be between two seperate minute values. So if you set the minute values between 0 and 10, it will start at the 01 minute and end at the 11 minute of the hour.
 
 
 ## Reflection
 *You'll complete this part at the end of the project.*
 
-Write 2 - 4 paragraphs on your reactions to the final project. 
-Your reflection should be thoughtful and reflective. 
-It is NOT a report about WHAT you did. 
+Write 2 - 4 paragraphs on your reactions to the final project.
+Your reflection should be thoughtful and reflective.
+It is NOT a report about WHAT you did.
 Instead, it's a look back at what you learned by doing this project.
-It should be critical of shortcomings (yours, as well as the instructors/assignments) 
+It should be critical of shortcomings (yours, as well as the instructors/assignments)
 as well as celebratory of what was achieved.
 
 ## References
-- v1 picture made in fritzing app 
+- v1 picture made in fritzing app
   - http://fritzing.org/home/
-- photo resistor help 
+- photo resistor help
   - https://learn.adafruit.com/photocells/arduino-code
 - buzzer help was found in the arduion ide examples library
 - led light help
   - https://www.arduino.cc/en/tutorial/blink
-- markdown help for readme 
+- markdown help for readme
   - https://www.markdownguide.org/cheat-sheet/
-- Chronodot setup 
+- Chronodot setup
   - https://github.com/adafruit/RTClib
 - Details on the Real Time Clock used for our project.
   - https://www.adafruit.com/product/255
@@ -109,10 +109,10 @@ as well as celebratory of what was achieved.
   - https://www.parallax.com/downloads/emic-2-arduino-example-code
 
 ## Final Self-Evaluations
-*You'll complete this part at the end of the project. 
-Assign points to each team member in each category, based on their contribution to the team. 
-The sum of all member's points in each category cannot exceed 10. 
-For example, for Coding, Partner 1 could get 7 points, and Partner 2 gets 3 points. 
+*You'll complete this part at the end of the project.
+Assign points to each team member in each category, based on their contribution to the team.
+The sum of all member's points in each category cannot exceed 10.
+For example, for Coding, Partner 1 could get 7 points, and Partner 2 gets 3 points.
 You can't give both people 6 points each though, as the sum exceeds 10.
 
 ### Ideation, Brainstorming, Design:
@@ -121,7 +121,7 @@ You can't give both people 6 points each though, as the sum exceeds 10.
 
 *Partner 2 (replace this with your name): 0-10*
 
-### Code creation: 
+### Code creation:
 
 *Partner 1 (replace this with your name): 0-10*
 
