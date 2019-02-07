@@ -62,14 +62,8 @@ Now that our project is nearing completion, it is safe to say that our initial d
 
 Overall, the final product didn't require an enormous amount of coding. All of the parts that we used had excellent documentation on the Arduino website, which helped us whenever we had questions about a part or a section of code. Since the project was relatively straightforward, we had the idea to add some additional functionalities to it, such as a temperature sensor or a text-to-speech module. The temperature module would have read the ambient temperature and told the user if a jacket was necessary, while the text-to-speech module would have been a customizable addition that would further motivate the user to wake up.
 
-In conclusion, the project was a great way to be introduced to the Arduino IDE. It allowed us to create a device that would be legitimately useful to us, and allowed us to explore the code that we would be using for the rest of the class. We both enjoyed working on the project and the experience gained will certainly be useful for future assignments and projects. 
+In conclusion, the project was a great way to be introduced to the Arduino IDE. It allowed us to create a device that would be legitimately useful to us, and allowed us to explore the code that we would be using for the rest of the class. We both enjoyed working on the project and the experience gained will certainly be useful for future assignments and projects. s
 
-Provide a brief summary description of the design and implementation,
-including how much your initial design plan evolved, the final result
-you achieved and the amount of time you spent as a programmer in
-accomplishing these results, including any challenges overcome and
-innovations that were not specifically required by the assignment.
-This section should be no more than three paragraphs.
 
 ## Instructions
 1. Set the time which you want the alarm to go off
