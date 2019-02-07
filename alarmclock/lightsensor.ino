@@ -1,3 +1,11 @@
+//Project 0: Robert Hogsed and Dustin Young
+//Creates an alarm that will go off at a set time. It can only be turned off by turning on the lights, hopefully
+//preventing the user from falling back asleep.
+//Credits:
+//Scott Heggen
+//Cody Mitchell
+//Other references located in the "References" section of the README.
+
 int lightPin = 0;  //define a pin for Photo resistor
 int ledPin=11;     //define a pin for LED
 
