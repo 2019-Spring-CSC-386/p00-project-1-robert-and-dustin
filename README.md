@@ -88,12 +88,25 @@ It should be critical of shortcomings (yours, as well as the instructors/assignm
 as well as celebratory of what was achieved.
 
 ## References
-- v1 picture made in fritzing app http://fritzing.org/home/
-- photo resistor help https://learn.adafruit.com/photocells/arduino-code
+- v1 picture made in fritzing app 
+  - http://fritzing.org/home/
+- photo resistor help 
+  - https://learn.adafruit.com/photocells/arduino-code
 - buzzer help was found in the arduion ide examples library
-- led light help https://www.arduino.cc/en/tutorial/blink
-- markdown help for readme https://www.markdownguide.org/cheat-sheet/
-- Chronodot setup https://github.com/adafruit/RTClib
+- led light help
+  - https://www.arduino.cc/en/tutorial/blink
+- markdown help for readme 
+  -https://www.markdownguide.org/cheat-sheet/
+- Chronodot setup 
+  - https://github.com/adafruit/RTClib
+- Details on the Real Time Clock used for our project.
+  - https://www.adafruit.com/product/255
+- Provided sample code for the RTC.
+  - https://learn.adafruit.com/adafruit-pcf8523-real-time-clock/rtc-with-arduino
+- More documentation for RTC
+  - http://docs.macetech.com/doku.php/chronodot_v2.0
+- Documentation for Emic 2 Text-to-Speech module. This is a possible add-on for our alarm, if time allows.
+  - https://www.parallax.com/downloads/emic-2-arduino-example-code
 
 ## Final Self-Evaluations
 *You'll complete this part at the end of the project. 
