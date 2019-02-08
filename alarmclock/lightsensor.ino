@@ -1,5 +1,5 @@
 //Project 0: Robert Hogsed and Dustin Young
-//Creates an alarm that will go off at a set time. It can only be turned off by turning on the lights, hopefully
+//Creates an alarm that will go off at a set time. It can only be turned off by turning on the lights
 //preventing the user from falling back asleep.
 //Credits:
 //Scott Heggen
@@ -9,7 +9,6 @@
 int lightPin = 0;  //define a pin for Photo resistor
 int ledPin=11;     //define a pin for LED
 
-//Imports code for the Real time clock
 #include <Wire.h>
 #include "RTClib.h"
 RTC_DS1307 RTC;
@@ -28,21 +27,22 @@ void loop()
 
    delay(100); //short delay for faster response to light.
 
-   digitalWrite(LED_BUILTIN, HIGH);
+   digitalWrite(LED_BUILTIN, HIGH); // turns on Led
      // Get the current time
-  DateTime now = RTC.now();
+  DateTime now = RTC.now();   // gets time
 
 
-  Serial.print(now.hour(), DEC);
+  Serial.print(now.hour(), DEC); //prints hour, minute, second
   Serial.print(':');
-  Serial.print(now.minute(), DEC);
+  Serial.print(now.minute(), DEC); 
   Serial.print(':');
   Serial.print(now.second(), DEC);
   Serial.println();
   delay(1000);
   // set alarm time here
- if(now.hour() == 7 && now.minute() > 29 && now.minute() < 40){
-
+ if(now.hour() == 23 && now.minute() > 9 && now.minute() < 20){
+  
+  
   //if light level is high enough no alarm will sound
    if (analogRead(lightPin) > 201){
       noTone(8);
