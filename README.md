@@ -22,12 +22,13 @@ The following components will be used in our design.
 - Real Time Clock - This will be able to tell the time, which will control when the device begins sounding off.
 - Led light - This will work as just a second indicator of when the alarm is sounding and will shut off when enough light is detected.
 
-The following parts will need to be coded.
-
 - Clock - We will need a clock to both tell what time it is, but also to determine when to start sounding the alarm to wake up
 - Light sensing - we will need to tell the alarm to stop sounding when the photo-resistor detects a certain level of light, and we will have to take into consideration ambient light
 - tune - we will need to tell the speaker what kind of sound to make
+
+**Possible Addition**
 - We are considering adding a temperature sensor as well as a few more colored leds. Different colored leds will light up to indicate roughly what the temperature is.
+- We also wanted to add a text to speech generator to read out the current time in the morning.
 
 **Very early version 1**:
 
@@ -62,6 +63,8 @@ Now that our project is nearing completion, it is safe to say that our initial d
 
 Overall, the final product didn't require an enormous amount of coding. All of the parts that we used had excellent documentation on the Arduino website, which helped us whenever we had questions about a part or a section of code. Since the project was relatively straightforward, we had the idea to add some additional functionalities to it, such as a temperature sensor or a text-to-speech module. The temperature module would have read the ambient temperature and told the user if a jacket was necessary, while the text-to-speech module would have been a customizable addition that would further motivate the user to wake up.
 
+Certain plans like temperature sensor and the text to speech module have not made it into our project at this point. The temperature sensor was reading inacurate temperatures, and the text to speech module would only output sound through headphones. Hopefully at least one of these will be ready before we present on tuesday.
+
 In conclusion, the project was a great way to be introduced to the Arduino IDE. It allowed us to create a device that would be legitimately useful to us, and allowed us to explore the code that we would be using for the rest of the class. We both enjoyed working on the project and the experience gained will certainly be useful for future assignments and projects. s
 
 
@@ -79,14 +82,10 @@ In conclusion, the project was a great way to be introduced to the Arduino IDE. 
 
 
 ## Reflection
-*You'll complete this part at the end of the project.*
 
-Write 2 - 4 paragraphs on your reactions to the final project.
-Your reflection should be thoughtful and reflective.
-It is NOT a report about WHAT you did.
-Instead, it's a look back at what you learned by doing this project.
-It should be critical of shortcomings (yours, as well as the instructors/assignments)
-as well as celebratory of what was achieved.
+Reflecting on the final product we are not disapointed. We completed everything we set out to do originally, and though some of the addtions we though of later on are not ready yet, with a bit more time we could likely get them working too. We learned a lot during this assignment, and it required a lot of hard thinking. Figuring out how to get the f=different sensors to work together was a real challenge but its so satifiing actually having a finished product.
+
+
 
 ## References
 - v1 picture made in fritzing app
@@ -110,32 +109,27 @@ as well as celebratory of what was achieved.
   - https://www.parallax.com/downloads/emic-2-arduino-example-code
 
 ## Final Self-Evaluations
-*You'll complete this part at the end of the project.
-Assign points to each team member in each category, based on their contribution to the team.
-The sum of all member's points in each category cannot exceed 10.
-For example, for Coding, Partner 1 could get 7 points, and Partner 2 gets 3 points.
-You can't give both people 6 points each though, as the sum exceeds 10.
 
 ### Ideation, Brainstorming, Design:
 
-*Partner 1 (replace this with your name): 0-10*
+*Robert: 5*
 
-*Partner 2 (replace this with your name): 0-10*
+*Dustin: 5*
 
 ### Code creation:
 
-*Partner 1 (replace this with your name): 0-10*
+*Robert: 5
 
-*Partner 2 (replace this with your name): 0-10*
+*Dustin 5*
 
 ### Documentation creation:
 
-*Partner 1 (replace this with your name): 0-10*
+*Robert: 5*
 
-*Partner 2 (replace this with your name): 0-10*
+*Dustin: 5*
 
 ### Teamwork & Participation:
 
-*Partner 1 (replace this with your name): 0-10*
+*Robert: 5*
 
-*Partner 2 (replace this with your name): 0-10*
+*Dustin: 5*
