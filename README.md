@@ -61,7 +61,7 @@ Overall, the final product didn't require an enormous amount of coding. All of t
 
 Certain plans like temperature sensor and the text to speech module have not made it into our project at this point. The temperature sensor was reading inacurate temperatures, and the text to speech module would only output sound through headphones. Hopefully at least one of these will be ready before we present on tuesday.
 
-In conclusion, the project was a great way to be introduced to the Arduino IDE. It allowed us to create a device that would be legitimately useful to us, and allowed us to explore the code that we would be using for the rest of the class. We both enjoyed working on the project and the experience gained will certainly be useful for future assignments and projects. s
+In conclusion, the project was a great way to be introduced to the Arduino IDE. It allowed us to create a device that would be legitimately useful to us, and allowed us to explore the code that we would be using for the rest of the class. We both enjoyed working on the project and the experience gained will certainly be useful for future assignments and projects.
 
 
 ## Instructions
@@ -116,7 +116,7 @@ I would have liked to get some of our other ideas implemented in time, we were s
 
 ### Code creation:
 
-*Robert: 5
+*Robert: 5*
 
 *Dustin 5*
 
