@@ -79,9 +79,9 @@ In conclusion, the project was a great way to be introduced to the Arduino IDE. 
 
 ## Reflection
 
-Reflecting on the final product we are not disapointed. We completed everything we set out to do originally, and though some of the addtions we though of later on are not ready yet, with a bit more time we could likely get them working too. We learned a lot during this assignment, and it required a lot of hard thinking. Figuring out how to get the f=different sensors to work together was a real challenge but its so satifiing actually having a finished product.
+Reflecting on the final product we are not disappointed. We completed everything we set out to do originally, and though some of the additions we thought of later on are not ready quite yet, with a bit more time we could likely get them working too. We learned a lot during this assignment, and it required a lot of hard thinking. Figuring out how to get all the different sensors to work together was a real challenge but its so satisfying actually having a finished product.
 
-I would have liked to get some of our other ideas implemented in time, we were starting to understad the modules but couldnt quite work out all the kinks. Meeting up outisde of class is hard sometimes so sometimes it limits the total ammount of progress that can be achived as a team, but we are still happy we completed what our original goal was.
+I would have liked to get some of our other ideas implemented in time, especially since we were starting to understand the modules but couldnt quite work out all the kinks. Meeting up outisde of class is hard sometimes as well so sometimes it limits the total ammount of progress that can be achieved as a team, but we are still happy we completed what our original goal was.
 
 
 
@@ -116,9 +116,9 @@ I would have liked to get some of our other ideas implemented in time, we were s
 
 ### Code creation:
 
-*Robert: 5*
+*Robert: 6*
 
-*Dustin 5*
+*Dustin 4*
 
 ### Documentation creation:
 
